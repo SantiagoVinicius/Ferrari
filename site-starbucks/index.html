@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrari</title>
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
+</head>
+<body>
+    <section>
+        <div class="circulo"></div>
+        <header>
+            <a href="#" class="logo"><img src="images/LogoF.png" alt="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Novidades</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </header>
+        <main class="conteudo">
+            <div class="caixa-texto">
+                <h2>
+                    É mais que um carro <br>
+                    É <span>Ferrari</span>
+                </h2>
+                <p>
+                    Ferrari é uma fabricante italiana de carros esportivos de luxo com sede em Maranello. Fundada por Enzo Ferrari em 1939 na divisão de corridas da Alfa Romeo com o nome Auto Avio Costruzioni, a empresa construiu seu primeiro carro em 1940.
+                </p>
+                <a href="#">Leia mais</a>
+            </div>
+            <div class="caixa-imagem">
+                <img src="images/F1.png" alt="Copo verde" class="starbucks">
+            </div>
+
+            <ul class="miniaturas">
+                <li><img src="images/F3.png" alt="Copo verde" onmousemove="TrocarImagem('images/F3.png'); MudarCirculo('#8B0000')"></li>
+                <li><img src="images/F2.png" alt="Copo laranja" onmousemove="TrocarImagem('images/F2.png'); MudarCirculo('grey')"></li>
+                <li><img src="images/F1.png" alt="Copo rosa" onmousemove="TrocarImagem('images/F1.png'); MudarCirculo('rgb(216, 143, 6)')"></li>
+            </ul>
+
+            <ul class="redes-sociais">
+                <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
+                <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+            </ul>
+
+        </main>
+    </section>
+    <script src="js/funcoes.js"></script>
+</body>
+</html>
